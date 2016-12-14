@@ -1,0 +1,8 @@
+* should return 202
+curl -v -H "Content-Type: application/json" -d '{"location": "west-seattle-bridge", "data": ["car", "motorcycle", "car", "car", "bus"]}' localhost:8080/sensorapi/data
+
+* should return 400
+curl -v -H "Content-Type: application/json" -d '{"zoop": "west-seattle-bridge", "floop": ["car", "motorcycle", "car", "car", "bus"]}' localhost:8080/sensorapi/data
+
+* should return 200
+curl -v localhost:8080/api/locations
