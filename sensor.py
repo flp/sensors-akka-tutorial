@@ -6,7 +6,7 @@ import requests
 import sys
 import time
 
-URL = 'http://localhost:8080/sensorapi/data'
+URL = 'http://localhost:6000/sensorapi/data'
 
 # Usage:
 #   - argv[1]: String, location of sensor
