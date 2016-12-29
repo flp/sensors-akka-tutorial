@@ -8,7 +8,7 @@ Server online at http://localhost:6000/
 Press RETURN to stop...
 ```
 
-Simulate sensors using the `sensor.py` script. This will start 3 different sensors:
+Simulate sensors using the `sensor.py` script. This will start 3 different sensors in the background:
 ```
 > python sensor.py west-seattle-bridge 6 1 2 40 1 &
 Sensor started at west-seattle-bridge with weights 6:1:2 (c:m:b). 40 vehicles every 1 seconds.
