@@ -1,5 +1,5 @@
 # Mock Traffic Monitoring System
-Tutorial for Akka and Akka HTTP.
+Tutorial for Akka and Akka HTTP. [Link to blog post](https://franklinpearsall.com/getting-started-with-akka-and-akka-http-building-a-mock-traffic-monitoring-system/).
 
 Start the server and actor system:
 ```
